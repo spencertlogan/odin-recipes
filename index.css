@@ -1,9 +1,21 @@
 
 img {
-    max-width : 100%;
-    height : 500px;
+    max-width: 100%;
+    height: auto;
 }
 
-.chickenAlfredoPic {
-    max-width : 30%;
+h1 {
+    text-align: center;
+}
+
+a {
+    text-align: center;
+}
+
+.flex-box-images {
+    display: flex;
+}
+
+.flex-box-images div {
+    flex: 1;
 }
