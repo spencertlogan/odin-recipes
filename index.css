@@ -6,10 +6,7 @@ img {
 
 h1 {
     text-align: center;
-}
-
-a {
-    text-align: center;
+    background-color: lightgrey;
 }
 
 .flex-box-images {
@@ -18,4 +15,15 @@ a {
 
 .flex-box-images div {
     flex: 1;
+}
+
+.flex-box-links {
+    display: flex;
+    text-align: center;
+    flex: 1;
+}
+
+.flex-box-links a {
+    flex: 1;
+    background-color: lightgray;
 }
